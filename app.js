@@ -24,6 +24,7 @@ app.use('/', myRouter);
 // ==============================
 // เปิด Server ให้ทำงานที่ Port 3000กำหนด Port ที่ Server จะทำงาน เปิดเว็บผ่าน localhost:3000
 const PORT = process.env.PORT || 3000;
+
 app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
 });
